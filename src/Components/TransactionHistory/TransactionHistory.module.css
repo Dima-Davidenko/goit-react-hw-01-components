@@ -1,0 +1,43 @@
+.table {
+  width: 400px;
+  font-size: 16px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.thead {
+  background-color: var(--theme-ui-colors-greenDark);
+  border: 1px solid var(--theme-ui-colors-gray);
+  color: var(--theme-ui-colors-background);
+}
+
+.thead th {
+  padding: 10px;
+}
+
+.thead th:not(:last-child) {
+  border-right: 1px solid var(--theme-ui-colors-background);
+}
+
+.tbody {
+  text-align: center;
+  border: 1px solid var(--theme-ui-colors-gray);
+}
+.tbody tr:nth-child(odd) {
+  background-color: var(--theme-ui-colors-blue);
+}
+
+.tbody tr:nth-child(even) {
+  background-color: var(--theme-ui-colors-green);
+}
+.row {
+  border: 1px solid var(--theme-ui-colors-gray);
+}
+.td {
+  padding: 10px;
+  border: 1px solid var(--theme-ui-colors-gray);
+}
+.tdType {
+  padding: 10px;
+  text-transform: capitalize;
+}
