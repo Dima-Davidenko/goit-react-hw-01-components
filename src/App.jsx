@@ -1,9 +1,9 @@
-import { Profile, Box, Statistics, FriendList, TransactionHistory } from './Components/index';
-import { boxSettings } from './utils/boxSettings';
-import user from './db/user.json';
-import data from './db/data.json';
-import friends from './db/friends.json';
-import transactions from './db/transactions.json';
+import { Profile, Box, Statistics, FriendList, TransactionHistory } from './сomponents/index';
+import { boxSettings } from './data/boxSettings';
+import user from './data/user.json';
+import data from './data/data.json';
+import friends from './data/friends.json';
+import transactions from './data/transactions.json';
 
 export default function App() {
   return (
